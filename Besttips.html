@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesotho Hub Website</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e9f5ec; /* soft green */
+            color: #333;
+        }
+        header {
+            background: #2d6a4f;
+            padding: 1rem;
+        
+        }
+        .logo{
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            width: 86px;
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+         
+        header {
+            background-color: #2e7d32;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #a5d6a7;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .besttips-container{
+            width: 100%;
+            overflow:hidden;
+            background: white;
+            border-top: 3px solid #4caf50;
+            border-bottom: 3px solid #4caf50;
+            padding: 10px 0;
+            position: relative;
+            
+        }
+        .tips-slider{
+            display: flex;
+            width:max-content;
+            animation: scroll 30s linear infinite; 
+        }
+        .tip{
+            flex:none;
+            width: 250px;
+            margin: 0 30px;
+            text-align: center;
+        }
+        .tip img{
+            width: 100%;
+            height: 180px;
+            object-fit:cover;
+            border-radius: 10px;
+            border-radius: 10px;
+            border:4px solid #4caf50;
+            box-shadow: 0 4px 8px rgba(0,0,0,0,2);
+        }
+        .tip p{
+            margin-top:8px;
+            font-size: 16px;
+            color:#333;
+
+        }
+        @keyframes scroll {
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateX(-100%);
+            }
+        }
+
+    footer {
+        background-color: #2e7d32;
+        text-align: center;
+        padding: 1rem;
+        color: #fff;
+        margin-top: 2rem;
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+         <h1>Lesotho Hub</h1>
+        <nav>
+
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Business .html">Business</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contacts.html">Contact Us</a></li>
+                <li><a href="Besttips.html">Best Tips</a></li>
+                <img src="logo.jpg" alt="logo" class="logo">
+            </ul>
+    </nav>
+    </header>
+
+    <main>
+        <div class="besttips-container">
+            <div class="tips-slider">
+                <div class="tips">
+                    <img src="poultry1.jpg" alt="Tip 1">
+                    <p>Chickens need some time roam outside to </p> 
+                    <p>avoid stress and some attacks from insects</p>
+                </div>
+                <div class="tips">
+                    <img src="crop1.jpg" alt="Tip 2">
+                    <p>Crops need regular irregation,</p>
+                    <p>especialy when the weatheer is too hot</p> 
+                </div>
+                <div class="tips">
+                    <img src="dairy1.jpg" alt="Tip 3">
+                    <p>Feed animals a diet that matches</p>
+                    <p>thier growth or production stage</p> 
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>&copy; 2025 Lesotho Hub Website. All rights reserved.</footer>
+
+
+
+</body>
+</html>

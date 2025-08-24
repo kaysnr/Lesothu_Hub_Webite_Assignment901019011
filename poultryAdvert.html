@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesotho Hub Website</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e9f5ec; /* soft green */
+            color: #333;
+        }
+        
+        .logo{
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            width: 86px;
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+         
+        header {
+            background-color: #2e7d32;
+            padding: 1rem ;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #a5d6a7;
+        }
+    footer {
+        background-color: #2e7d32;
+        text-align: center;
+        padding: 1rem;
+        color: #fff;
+        margin-top: 2rem;
+    }
+    h1{
+        text-align: center;
+        color: #2e7d32;
+        margin-bottom: 30px;
+    }
+    .farmers-container{
+        display: grid;
+        padding: 15px;
+        border-radius: 12px;
+        border: 2px solid #4caf50;
+        box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    }
+    .farmers-card h2{
+        margin: 0;
+        color:#2e7d32;
+    }
+    .farmers-card p{
+        margin: 5px 0 10px;
+        font-size: 14px;
+        gap: 10px;
+    }
+    .farm-photos{
+        font-display: flex;
+        gap: 10px;
+    }
+    .farm-photos img{
+        object-fit: cover;
+        border-radius:8px;
+        border:2px solid #4caf50;
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lesotho Hub</h1>
+        <nav>
+
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Business .html">Business</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contacts.html">Contact Us</a></li>
+                <li><a href="Besttips.html">Best Tips</a></li>
+                <img src="logo.jpg" alt="logo" class="logo">
+            </ul>
+    </nav>
+    </header>
+
+    <main>
+        <h1>Farmers Directory</h1>
+        <div class ="farmers-container">
+            <div class="famers-card">
+                <h2>Free Birds Poultry</h2>
+                <p>Contact: +266 51294356</p>
+                <p>Location:Mafeteng</p>
+                <div class="farm-photos">
+                    <img src="poultry2.jpg" alt="Farm Photo 1">
+                    <img src="poultry3.jpg" alt="Fram Photo 2">
+                </div>
+            </div>
+        </div>
+         <div class="famers-card">
+                <h2>Reliable Leqele Poultry Farmers</h2>
+                <p>Contact: +266 51294356</p>
+                <p>Location:Maseru</p>
+                <div class="farm-photos">
+                    <img src="poultry1.jpg" alt="Farm Photo 1">
+                    <img src="poultry4.jpg" alt="Fram Photo 2">
+                </div>
+            </div>
+
+
+
+    </main>
+
+    <footer>&copy; 2025 Lesotho Hub Website. All rights reserved.</footer>
+
+
+
+</body>
+</html>
